@@ -9,6 +9,8 @@ const ProductList = () => {
 
 	const products = useGetProducts(API);
 
+	console.log(products);
+
 	return (
 		<section className="main-container">
 			<div className="ProductList">
